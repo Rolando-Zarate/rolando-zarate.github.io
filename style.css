@@ -77,7 +77,10 @@ header ul li a:hover{
 	.image{
 		width:100%;
 		height:auto;
-		margin-right:0px;
-	}
+        }
+        .the-guy-who-taked-the-picture {
+            display:none;
+	} 
+
 }
 
