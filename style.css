@@ -62,9 +62,8 @@ header ul li a:hover{
 }
 @media (max-width:800px){
 	body{
-		font-family:verdana,arial;
-		background-color:rgb(16,16,16);
-		background-image:none;
+		font-family:"Roboto",arial;
+		background-image:url("mback.jpg");
 		color:rgb(255,255,255);
 	}
 	.page-wrapper{
@@ -73,9 +72,6 @@ header ul li a:hover{
 	}
 	header ul li a{
 		font-size:1em;
-	}
-	.the-guy-who-taked-the-picture{
-		display:none;
 	}
 	.image{
 		width:100%;
