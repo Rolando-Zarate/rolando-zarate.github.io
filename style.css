@@ -2,7 +2,7 @@ body{
 	font-family:"Roboto",arial;
 	background-image:url("back.jpg");
 	background-repeat:no-repeat;
-	background-size:cover;
+	background-size:100%;
 	color:rgb(255,255,255);
 }
 *{
