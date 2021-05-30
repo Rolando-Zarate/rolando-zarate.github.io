@@ -1,8 +1,6 @@
 body{
 	font-family:"Roboto",arial;
-	background-image:url("back.jpg");
-	background-repeat:no-repeat;
-	background-size:cover;
+	background:url("back.jpg") no-repeat center center fixed; 
 	color:rgb(255,255,255);
 }
 *{
@@ -15,12 +13,6 @@ body{
 .n-link:hover{
 	text-decoration:underline;
 	color:rgb(200,200,205);
-}
-.image{
-    width:70%;
-    height:auto;
-	margin-right:30%;
-	border:2px solid rgba(50,50,255,0.1);
 }
 header ul{
 	overflow:hidden;
@@ -63,8 +55,7 @@ header ul li a:hover{
 @media (max-width:800px){
 	body{
 		font-family:"Roboto",arial;
-		background-color:rgb(30,30,30);
-		background-image:none;
+		background:url("mback.jpg") no-repeat center center fixed; 		
 		color:rgb(255,255,255);
 	}
 	.page-wrapper{
@@ -74,13 +65,12 @@ header ul li a:hover{
 	header ul li a{
 		font-size:1em;
 	}
+	.the-guy-who-taked-the-picture{
+		display:none;
+	}
 	.image{
 		width:100%;
 		height:auto;
-        }
-        .the-guy-who-taked-the-picture {
-            display:none;
-	} 
-
+		margin-right:0px;
+	}
 }
-
