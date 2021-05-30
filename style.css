@@ -1,6 +1,7 @@
 body{
 	font-family:"Roboto",arial;
 	background:url("back.jpg") no-repeat center center fixed; 
+	background-size:100%;
 	color:rgb(255,255,255);
 }
 *{
