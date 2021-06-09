@@ -56,13 +56,10 @@ header ul li a:hover{
 	background-color:rgba(20,20,20);
 	border:0.5px solid rgb(0,0,0);
 	padding:3px;
-	border-radius:5px;
 }
 @media (max-width:800px){
 	body{
-		font-family:"Roboto",arial;
 		background:url("mback.jpg") no-repeat center center fixed; 		
-		color:rgb(255,255,255);
 	}
 	.page-wrapper{
 		padding:10px;
