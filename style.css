@@ -53,9 +53,21 @@ header ul li a:hover{
 	position:fixed;
 	bottom:0;
 	right:0;
-	background-color:rgba(20,20,20);
 	border:0.5px solid rgb(0,0,0);
-	padding:3px;
+	border-top-left-radius:16px;
+	background-color:rgb(25,25,25);
+	padding:1px;
+}
+.text-container{
+	background-color:rgb(20,20,20);
+	margin-top:15px;
+	margin-bottom:15px;
+	border-radius:5px;
+	border:0.5px solid rgb(20,20,20);
+	padding:5px;
+}
+.italictext{
+	font-style:italic;
 }
 @media (max-width:800px){
 	body{
@@ -68,17 +80,4 @@ header ul li a:hover{
 	header ul li a{
 		font-size:1em;
 	}
-	.image{
-		width:100%;
-		height:auto;
-		margin-right:0px;
-	}
-}
-.text-container{
-	background-color:rgb(20,20,20);
-	margin-top:15px;
-	margin-bottom:15px;
-	border-radius:5px;
-	border:0.5px solid rgb(20,20,20);
-	padding:5px;
 }
