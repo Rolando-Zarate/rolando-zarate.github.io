@@ -8,7 +8,7 @@ body{
 	padding:0;
 }
 header nav{
-	background-color:rgb(100,100,100);
+	background-color:rgb(60,60,60);
 	border-bottom:solid 0.4px rgb(70,70,70);
 	padding:15px;
 	overflow:hidden;
@@ -71,11 +71,13 @@ header nav{
 	padding-left:10vw;
 	text-decoration:underline;
 }
-a{
+.content a{
 	color:rgb(0,0,80);
 	text-decoration:none;
+	transition:color 1s;
 }
-a:hover{
+.content a:hover{
+	color:rgb(0,0,160);
 	text-decoration:underline;
 }
 .endAnimated{
@@ -89,6 +91,9 @@ a:hover{
 }
 .langs i{
 	font-size:2em;
+}
+.nonrmalicons{
+	font-size:2.5em;
 }
 ul{
 	padding-left:35px;
