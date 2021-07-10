@@ -1,6 +1,3 @@
-var menu = document.getElementById("menu");
-var trigger = document.getElementById("trigger");
-var hider = document.getElementById("hider");
 function closeAnim(){
 	menu.classList.remove("endAnimated");
 	menu.classList.remove("menu");
@@ -20,6 +17,9 @@ function showMenu(){
 	menuSwitch = true;
 }
 window.onload = function(){
+	let menu = document.getElementById("menu");
+	let hider = document.getElementById("hider");
+	let trigger = document.getElementById("trigger");
 	trigger.onclick = showMenu;
 	hider.onclick = hideMenu;
 }
